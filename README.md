@@ -15,6 +15,6 @@ SxS là số lượng ô được chia trên 1 tấm ảnh<br>
 5 lần lướt là x, y, w, h, prediction<br>
 * (x, y) là tâm toạ độ vật thể
 * (w, h) lần lượt là chiều rộng và chiều cao vật thể
-* prediction dự đoán có vật thể hay không<br>
+* prediction dự đoán có vật thể hay không
 N là số lượng box dự đoán trên mỗi ô<br>
 M là số lượng class dự đoán tỉ lệ phần trăm dự đoán vật thể đó. M này tương tự như đầu ra của mạng CNN<br>
