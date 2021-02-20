@@ -11,8 +11,8 @@ How to train yolo: https://blog.roboflow.com/training-yolov4-on-a-custom-dataset
 <p>Đầu ra của ảnh là ma trận 3 chiều với kích thước là SxSx(5xN+M)</p>
 <p>Ví dụ: ảnh được chia thành 7x7, số box dự đoán trên mỗi ô là 2, số class là 3 thì ma trận đầu ra sẽ là 7x7x(5x2+3)</p>
 <h2>2. Giải thích về cách trọng số</h2>
-SxS là số lượng ô được chia trên 1 tấm ảnh<br>
-5 lần lướt là x, y, w, h, prediction<br>
+<p>SxS là số lượng ô được chia trên 1 tấm ảnh</p>
+<p>5 lần lướt là x, y, w, h, prediction</p>
 <ul>
 <li>(x, y) là tâm toạ độ vật thể</li>
 <li>(w, h) lần lượt là chiều rộng và chiều cao vật thể</li>
