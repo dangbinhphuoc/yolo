@@ -31,7 +31,4 @@ How to train yolo: https://blog.roboflow.com/training-yolov4-on-a-custom-dataset
   <li>pr(object): dự đoán có vật thể hay không</li>
   <li>IoU(pred, truth) được tính bằng:</li>
 </ul>
-![](https://github.com/dangbinhphuoc/yolo/blob/main/IoU.png)
-![alt]((https://github.com/dangbinhphuoc/yolo/blob/main/IoU.png)
-
 <img src="https://github.com/dangbinhphuoc/yolo/blob/main/IoU.png"/>
