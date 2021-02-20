@@ -1,7 +1,8 @@
 # Document yolo
 How to train yolo: https://blog.roboflow.com/training-yolov4-on-a-custom-dataset/
 
-# I. Giới thiệu
+<h1>I. Giới thiệu</h1>
+
 <p>Yolo (You only life one) là thuật toán được dùng để Detetect đối tượng</p>
 <p>Thuật toán Yolo bản chất có cấu tạo từ mạng CNN được biến đổi để xác định và phân loại đối tượng</p>
 <p>Trong đó, phần convolutional layer được dùng để trích xuất đặc trưng và phần fully connected layer được dùng để dự đoán đối tượng và toạ độ của đối tượng đó</p>
@@ -22,3 +23,11 @@ How to train yolo: https://blog.roboflow.com/training-yolov4-on-a-custom-dataset
 </ul>
 <p>N là số lượng box dự đoán trên mỗi ô</p>
 <p>M là số lượng class dự đoán tỉ lệ phần trăm dự đoán vật thể đó. M này tương tự như đầu ra của mạng CNN</p>
+
+<h2>3. Công thức prediction</h2>
+<p>prediction = pr(object)*IoU(pred, truth)</p>
+<p>Trong đó:</p>
+<ul>
+  <li>pr(object): dự đoán có vật thể hay không</li>
+  <li>IoU(pred, truth) được tính bằng:</li>
+</ul>
