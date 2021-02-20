@@ -1,12 +1,12 @@
 # Document yolo
 How to train yolo: https://blog.roboflow.com/training-yolov4-on-a-custom-dataset/
 
-I. Giới thiệu
+#h1I. Giới thiệu
 
 Yolo (You only life one) là thuật toán được dùng để Detetect đối tượng
 Thuật toán Yolo bản chất có cấu tạo từ mạng CNN được biến đổi để xác định và phân loại đối tượng
 Trong đó, phần convolutional layer được dùng để trích xuất đặc trưng và phần fully connected layer được dùng để dự đoán đối tượng và toạ độ của đối tượng đó
-II. Cách thức hoạt động
+#h1II. Cách thức hoạt động
 
 1. Đầu vào và ra của vật thể
 Đầu vào là ảnh của vật. Tuy nhiên ảnh không nhất thiết phải có cùng kích thước với các ảnh đầu vào khác giống CNN. Ảnh chia thành SxS ô, mà thường là 3x3, 5x5, 7x7, ...
