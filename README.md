@@ -1,5 +1,8 @@
 # Document yolo
-How to train yolo: https://blog.roboflow.com/training-yolov4-on-a-custom-dataset/
+How to train yolo: https://blog.roboflow.com/training-yolov4-on-a-custom-dataset/<br>
+Real time: https://www.youtube.com/watch?v=xKK2mkJ-pHU <br>
+Source: https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/ <br>
+
 
 <h1>I. Giới thiệu</h1>
 
